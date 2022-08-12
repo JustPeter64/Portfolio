@@ -1,0 +1,144 @@
+/* General */
+body {
+    background-color: var(--main-color--);
+
+    margin: 0;
+}
+
+/* Main-components */
+header {
+    background-color: var(--header-color--);
+
+    position: fixed;
+    top: 0;
+    height: 15vh;
+    width: 100vw;
+    border-bottom: solid var(--header-border-color--) 2px;
+}
+
+nav {
+    margin-top: 15vh;
+    font-size: 1.5rem;
+}
+
+h7 {
+    color: var(--h7-text--);
+}
+
+.content {
+    text-align: left;
+    margin-top: 5vh;
+    padding: 5vw;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Div's */
+.header-decoration {
+    background-color: var(--header-decoration-color--);
+
+    text-align: center;
+    height: 18.25vh;
+    margin-left: 40vw;
+    width: 20vw;
+    padding: 1vw;
+    border-bottom-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    border: solid var(--header-border-color--) 2px;
+    border-top: none;
+}
+
+/* navbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--navbar-color--);
+
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: var(--navbar-text--);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: var(--navbar-border-color-default--) 2px solid;
+}
+
+li a:hover {
+    background-color: var(--navbar-hover-color--);
+    border-bottom: var(--navbar-border-color--) 2px solid;
+    transition: ease .5s;
+}
+
+.active{
+    background-color: var(--navbar-active-color--);
+    border-bottom: var(--navbar-border-color-active-default--) 2px solid;
+}
+
+/* Text */
+h1 {
+    color: var(--h1-text--);
+}
+
+h2 {
+    color: var(--h2-text--);
+}
+
+p{
+    color: var(--p-text--);
+}
+.title{
+    font-size: 3rem;
+}
+
+/* footer */
+footer {
+    background-color: var(--footer-background--);
+    border-top: solid 2px var(--footer-border-color--);
+    font-size: 1.2rem;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    display: flex;
+    margin-top: 15vh;
+}
+
+.footerSection {
+    width: auto;
+    margin-left: 10vw;
+}
+
+.footerUl {
+    width: max-content;
+}
+
+.footerLi {
+    font-style: italic;
+    float: none;
+    text-align: left;
+    margin-left: 5vw;
+    list-style-type: circle;
+    color: #CCCDD2;
+}
+
+.footerLi a {
+    border-bottom: var(--footer-background--) 2px solid;
+    padding: 1vh;
+}
+
+.footerLi a:hover {
+    background-color: #222;
+    border-bottom: var(--footer-hover-border--) 2px solid;
+    transition: ease-in .5s;
+}
+
+.one {
+    margin-top: 2vh;
+}

@@ -1,0 +1,271 @@
+/* General */
+body {
+    background-color: var(--main-color--);
+
+    margin: 0;
+}
+
+/* Main-components */
+header {
+    background-color: var(--header-color--);
+
+    position: fixed;
+    top: 0;
+    height: 15vh;
+    width: 100vw;
+    border-bottom: solid var(--header-border-color--) 2px;
+}
+
+nav {
+    margin-top: 15vh;
+    font-size: 1.5rem;
+}
+
+.content {
+    text-align: left;
+    margin-top: 5vh;
+    padding: 2vw;
+    display: flex;
+    margin-left: 7vw;
+    justify-content: center;
+    width: 80vw;
+    height: auto;
+    margin-bottom: 0vh;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Div's */
+.header-decoration {
+    background-color: var(--header-decoration-color--);
+
+    text-align: center;
+    height: 18.25vh;
+    margin-left: 40vw;
+    width: 20vw;
+    padding: 1vw;
+    border-bottom-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    border: solid var(--header-border-color--) 2px;
+    border-top: none;
+}
+
+/* navbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--navbar-color--);
+
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: var(--navbar-text--);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: var(--navbar-border-color-default--) 2px solid;
+}
+
+li a:hover {
+    background-color: var(--navbar-hover-color--);
+    border-bottom: var(--navbar-border-color--) 2px solid;
+    transition: ease .5s;
+}
+
+.active{
+    background-color: var(--navbar-active-color--);
+    border-bottom: var(--navbar-border-color-active-default--) 2px solid;
+}
+
+/* Text */
+h1 {
+    color: var(--h1-text--);
+}
+
+h2 {
+    color: var(--h2-text--);
+}
+
+h7 {
+    color: var(--h7-text--);
+}
+
+p{
+    color: var(--p-text--);
+}
+.title{
+    font-size: 3rem;
+}
+
+/* contactformulier */
+.content > *{
+    flex: 1 1 100%;
+}
+
+.content-text{
+    background-color: var(--contact-text-bg--);
+    padding: 2.5vw;
+    font-size: 13vh;
+    color: var(--p-text--);
+}
+
+#dance {
+    font-family: 'Dancing Script', cursive;
+}
+
+#roboto {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 100;
+    font-style: italic;
+}
+
+.content-form{
+    background-color: var(--main-color-2--);
+}
+
+.form{
+    margin: 2vw;
+    margin-top: 8vh;
+    display: flex;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: thin;
+}
+.form > *{
+    flex: 1 1 100%;
+}
+
+input::placeholder {
+    color: var(--contact-placeholder--);
+    font-size: 2rem;
+}
+input:focus {
+    outline: none;
+}
+
+input {
+    width: 15vw;
+    margin-top: 2vh;
+    
+}
+
+#message{
+    width: 26.9vw;
+
+} 
+
+.submit{
+    margin-left: 1.5vw;
+    height: 5vh;
+    width: 5vw;
+    border: none;
+    font-size: 1.2em;
+    background-color: transparent;
+}
+
+.submit:hover{
+    color: var(--contact-details--);
+}
+
+.email-us{
+    margin-left: 2.2vw;
+    margin-top: 2vh;
+    text-decoration: none;
+    color: var(--contact-label--);
+}
+
+.email-us:hover{
+    color: var(--contact-details--);
+}
+
+input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size:1rem;
+}
+
+input{
+    border: none;
+    background-color:transparent;
+    border-bottom: 2px solid var(--contact-details--);
+    font-size: 0.9em;
+}
+
+input:focus {
+    background-color: none;
+}
+
+textarea{
+    width: 80vw;
+    resize: none;
+    height: 30vh ;
+    border: none;
+    background-color: transparent;
+    border: var(--contact-details--) 2px solid;
+    max-width: 32vw;
+    min-width: 10vw;
+    min-height: 2vh;
+    max-height: 15vh;
+    font-family: 'Roboto', sans-serif; 
+
+}
+
+textarea:focus{
+    outline: none;
+}
+
+textarea::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: var(--contact-placeholder--);
+}
+
+/* footer */
+footer {
+    background-color: var(--footer-background--);
+    border-top: solid 2px var(--footer-border-color--);
+    font-size: 1.2rem;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    display: flex;
+    margin-top: 15vh;
+}
+
+.footerSection {
+    width: auto;
+    margin-left: 10vw;
+}
+
+.footerUl {
+    width: max-content;
+}
+
+.footerLi {
+    font-style: italic;
+    float: none;
+    text-align: left;
+    margin-left: 5vw;
+    list-style-type: circle;
+    color: #CCCDD2;
+}
+
+.footerLi a {
+    border-bottom: var(--footer-background--) 2px solid;
+    padding: 1vh;
+}
+
+.footerLi a:hover {
+    background-color: #222;
+    border-bottom: var(--footer-hover-border--) 2px solid;
+    transition: ease-in .5s;
+}
+
+.one {
+    margin-top: 2vh;
+}
