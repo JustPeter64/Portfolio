@@ -263,3 +263,7 @@ footer {
 .first {
     margin-top: 2vh;
 }
+
+#expertiseArea{
+   scroll-margin: 20vh;
+}
